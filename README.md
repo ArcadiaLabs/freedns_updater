@@ -12,7 +12,7 @@ Only updates record if a new IP has been found
 
 add this line at end of the file :
 
-`* * * * * sudo sh [FOLDER]/freedns_update_ip.sh`
+`* * * * * sudo sh [FOLDER]/freedns_update_ip.sh` (remplace [FOLDER] with your own)
 
 # Logging
 The scripts writes in a log if the IP has been updated. The log is located at `/tmp/freedns.log`
