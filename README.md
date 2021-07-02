@@ -10,9 +10,9 @@ Only updates record if a new IP has been found
 
 `sudo crontab -e`
 
-add this line at end of the file :
+add this line at end of the file *(replace [FOLDER] with your own)* :
 
-`* * * * * sudo sh [FOLDER]/freedns_update_ip.sh` (remplace [FOLDER] with your own)
+`* * * * * sudo sh [FOLDER]/freedns_update_ip.sh` 
 
 # Logging
 The scripts writes in a log if the IP has been updated. The log is located at `/tmp/freedns.log`
