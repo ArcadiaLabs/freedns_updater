@@ -18,7 +18,7 @@ then
 
 	wget -q -O /dev/null $UPDATEURL
 
-	LOG=$(date +'%d/%m/%Y')" - "$(date +"%T")" : "$UPDATEURL 
+	LOG=$(date +'%d/%m/%Y')" - "$(date +"%T")" : "$IP
 	echo $LOG >> /tmp/freedns.log
 	
 	echo $IP > /tmp/oldip
