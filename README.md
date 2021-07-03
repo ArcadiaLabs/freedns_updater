@@ -15,6 +15,6 @@ add this line at end of the file *(replace [FOLDER] with your own)* :
 `* * * * * sudo sh [FOLDER]/freedns_update_ip.sh` 
 
 # Logging
-The scripts writes in a log if the IP has been updated. The log is located at `/tmp/freedns.log`
+The script writes in a log if the IP has been updated. The log is located at `/tmp/freedns.log`
 
 The log is in tmp folder so it will reset after a reboot.
